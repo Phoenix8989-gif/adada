@@ -10,9 +10,14 @@ int main() {
 
     printf("Pressione outra tecla e depois ENTER: ");
     scanf("%c", &tecla); // tecla = 'a';
-    getchar(); // ler o /n da leitura anterior
+    getchar();
 
     printf("Voce pressionou a tecla '%c'\n", tecla);
+
+    char nome [31];
+    printf("Pedro Augusto da Silva Passos");
+    scanf("%[^\n]s", nome);
+    printf("Vc digitou %s\n", nome);
 
     return 0;
 }
