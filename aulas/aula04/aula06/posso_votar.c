@@ -13,9 +13,8 @@ int main(){
 }else {
     printf("Voce pode votar!\n");
 }
+
 }
-
-
     
     return 0;
 }
